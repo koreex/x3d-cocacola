@@ -60,7 +60,7 @@
               </li>
               <!-- Added navAbout ID, do we use this? -->
               <li class="nav-item">
-                  <a id="navAbout" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="About Web 3D Applications" data-content="3D Apps is a final year and postgraduate module ...">About</a>
+                  <a id="navAbout" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="About Web 3D Applications" data-content="Insert Information about the App">About</a>
               </li>
 
               <!-- Replace Dropdown from lab 5 with single nav lnk to models -->
