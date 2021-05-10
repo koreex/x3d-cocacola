@@ -1,7 +1,7 @@
 // JavaScript Document
 var counter = 0;
 $(document).ready(function() {
-	
+
 	selectPage();
 	selectModel();
 
@@ -12,8 +12,8 @@ $(document).ready(function() {
 		$('#models').hide();
 		$('#interaction').hide();
 		$('#cokeDescription').hide();
-		$('#spriteDescription').hide(); 
-		$('#pepperDescription').hide(); 
+		$('#spriteDescription').hide();
+		$('#pepperDescription').hide();
 
 
 		$('#navHome').click(function(){
@@ -22,8 +22,8 @@ $(document).ready(function() {
 			$('#models').hide();
 			$('#interaction').hide();
 			$('#cokeDescription').hide();
-			$('#spriteDescription').hide(); 
-			$('#pepperDescription').hide(); 	  
+			$('#spriteDescription').hide();
+			$('#pepperDescription').hide();
 		});
 
 		$('#navAbout').click(function(){
@@ -32,18 +32,18 @@ $(document).ready(function() {
 			$('#models').hide();
 			$('#interaction').hide();
 			$('#cokeDescription').hide();
-			$('#spriteDescription').hide(); 
-			$('#pepperDescription').hide(); 	  
+			$('#spriteDescription').hide();
+			$('#pepperDescription').hide();
 		});
 
 		$('#navModels').click(function(){
 			$('#home').hide();
 			$('#about').hide();
 			$('#models').show();
-			$('#interaction').show(); 
+			$('#interaction').show();
 			$('#cokeDescription').show();
-			$('#spriteDescription').hide(); 
-			$('#pepperDescription').hide(); 
+			$('#spriteDescription').hide();
+			$('#pepperDescription').hide();
 		});
 	}
 
@@ -53,30 +53,30 @@ $(document).ready(function() {
 			$('#coke').show();
 			$('#sprite').hide();
 			$('#pepper').hide();
-			$('#interaction').show(); 
+			$('#interaction').show();
 			$('#cokeDescription').show();
-			$('#spriteDescription').hide(); 
-			$('#pepperDescription').hide(); 
+			$('#spriteDescription').hide();
+			$('#pepperDescription').hide();
 		});
 
 		$('#navSprite').click(function(){
 			$('#coke').hide();
 			$('#sprite').show();
 			$('#pepper').hide();
-			$('#interaction').show(); 
+			$('#interaction').show();
 			$('#cokeDescription').hide();
 			$('#spriteDescription').show();
-			$('#pepperDescription').hide();  	  	  
+			$('#pepperDescription').hide();
 		});
 
 		$('#navPepper').click(function(){
 			$('#coke').hide();
 			$('#sprite').hide();
 			$('#pepper').show();
-			$('#interaction').show(); 
+			$('#interaction').show();
 			$('#cokeDescription').hide();
-			$('#spriteDescription').hide(); 
-			$('#pepperDescription').show(); 	   
+			$('#spriteDescription').hide();
+			$('#pepperDescription').show();
 		});
 	}
 
