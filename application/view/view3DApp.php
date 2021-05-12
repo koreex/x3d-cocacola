@@ -183,7 +183,7 @@
                           <div class="model3D">
                               <x3d id="model">
                                   <scene>
-                                      <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/sprite.x3d"> </inline>
+                                      <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/coke-sprite.x3d"> </inline>
                                   </scene>
                               </x3d>
                           </div>
@@ -196,7 +196,7 @@
                           <div class="model3D">
                               <x3d>
                                   <scene>
-                                      <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/pepper_animation.x3d"> </inline>
+                                      <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/coke-pepper.x3d"> </inline>
                                   </scene>
                               </x3d>
                           </div>
